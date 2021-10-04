@@ -1,10 +1,8 @@
-N = int(input())
-if N % 2 != 0:
-    print ('Weird')
+x=4
+
+if x>2:
+   print('bigger')
 else:
-    if N >= 2 and N <= 5:
-        print ('Not Weird')
-    elif N >= 6 and N <= 20:
-        print ('Weird')
-    elif N > 20:
-        print ('Not Weird')
+    print('smaller')
+
+print('all done')
